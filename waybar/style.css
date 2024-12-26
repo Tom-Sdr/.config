@@ -1,0 +1,39 @@
+* {
+	border: none;
+	border-radius: 0;
+	min-height: 0;
+	margin: 0;
+	padding: 0;
+	box-shadow: none;
+	text-shadow: none;
+	icon-shadow: none;
+}
+
+#waybar {
+  background-color: transparent;
+}
+
+#taskbar {
+  background-color: transparent;
+}
+
+#taskbar button {
+  font-size: 0px;
+  min-width: 0;
+}
+
+#pulseaudio,
+#cpu,
+#clock,
+#taskbar button.active {
+  margin: 4px;
+  padding: 2px;
+  background-color: #222222;
+  font-size: 16px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 7px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+

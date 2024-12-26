@@ -1,0 +1,31 @@
+{
+  "output": "DP-1",
+  "layer": "bottom",
+  "position": "top",
+  "height": 24,
+  "modules-left": ["wlr/taskbar"],
+  "modules-right": ["pulseaudio", "cpu", "clock"],
+  "cpu":{
+    "interval": 10,
+    "format": "  {usage}%",
+    "tooltip": false,
+  },
+  "clock": {
+    "tooltip": false,
+    "format": "  {:%d.%m.%Y     %H:%M}",
+  },
+  "wlr/taskbar": {
+    "all-outputs": true,
+    "format": "  {name}",
+    "tooltip": false,
+    "active-first": true, 
+  },
+  "pulseaudio": {
+    "format": "{icon}  {volume}",
+    "format-muted": "",
+    "format-icons": {
+      "default": ["", "", ""],
+    },
+    "on-click": "pavucontrol",
+  }
+}
