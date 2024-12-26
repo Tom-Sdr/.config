@@ -1,4 +1,4 @@
 *
-!hypr/
-!gtk-3.0/
+!hypr/*
+!gtk-3.0/*
 !.gitignore
