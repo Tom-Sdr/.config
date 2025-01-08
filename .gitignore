@@ -2,5 +2,9 @@
 !/hypr/
 !/gtk-3.0/
 !/waybar/
+!/wofi/
+!/zsh/
+/zsh/.zcompdump
+!/tmux/
 
 !.gitignore
