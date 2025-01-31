@@ -6,5 +6,6 @@
 !/zsh/
 /zsh/.zcompdump
 !/tmux/
+!/JetBrains/
 
 !.gitignore
