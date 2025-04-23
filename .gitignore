@@ -7,5 +7,6 @@
 /zsh/.zcompdump
 !/tmux/
 !/JetBrains/
+!/ags/
 
 !.gitignore
