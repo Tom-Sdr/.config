@@ -7,6 +7,8 @@ zstyle :compinstall filename '/home/t/.zshrc'
 source $ZDOTDIR/keybinds.zsh
 source $ZDOTDIR/prompt.zsh
 
+bindkey -v
+
 autoload -Uz compinit
 compinit
 
@@ -25,3 +27,10 @@ export SDKMAN_DIR="$HOME/.sdkman"
 [[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
 
 . "$HOME/.cargo/env"
+. "$HOME/.nvm/nvm.sh"
+
+export ANDROID_HOME="$HOME/Android/Sdk"
+export NDK_HOME="$ANDROID_HOME/ndk/$(ls -1 $ANDROID_HOME/ndk)"
+
+# to add zed
+export PATH=$HOME/.local/bin:$PATH
