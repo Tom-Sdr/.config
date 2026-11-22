@@ -4,5 +4,6 @@
 !/zsh/
 /zsh/.zcompdump
 !/tmux/
+!README.md
 
 !.gitignore
